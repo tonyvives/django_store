@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/tonyg/.local/share/virtualenvs/django_store-UOhuS6zS/bin/python",
+    "python.formatting.provider": "black"
+}
