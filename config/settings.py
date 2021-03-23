@@ -68,6 +68,7 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
                 "products.context_processors.all_categories",
+                "orders.context_processors.counter",
             ],
         },
     },
@@ -134,3 +135,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "login"
+
+STRIPE_PUBLISHABLE_KEY = "pk_test_51IWSC1Iquaw0aLxEbNbZI3ERTU2eUHicfMe49I0YyS8iK2RXdJ0d8bqwzCPcsaE7H2vIRDnzrk8EBAYg8htrbvzF00G8UBOmXi"
+STRIPE_SECRET_KEY = "sk_test_51IWSC1Iquaw0aLxE8wU4DsBysnCG0AZiY8p9cSwL01snGagkO2bvyn3DdVddqY6nShUMSrVk6fAtY6DnHcZJEJBV00BP4xsiG4"

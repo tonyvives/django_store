@@ -48,7 +48,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">
+          <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="{% url 'order_history' %}">
             Historial <i class="fas fa-sign-out-alt"></i>
           </a>
         </li>
@@ -71,10 +71,12 @@
         {% endif %}
 
         <!-- Carrito -->
+        {% if item_count > 0 %}
         <li class="nav-item">
-          <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">
-            <i class="fas fa-shopping-cart"></i>(1)
+          <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="{% url 'cart_detail' %}">
+            <i class="fas fa-shopping-cart"></i>({{item_count }})
           </a>
+          {% endif %}
           <!-- Carrito -->
         </li>
 
