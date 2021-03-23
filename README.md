@@ -10,3 +10,22 @@ Features - TODO:
  - Poder ver el historial de compras.
  - Personalizar el sitio ADMIN.
  - Enviar email a usuarios del pedido.
+
+
+# Screenshots
+
+### Home Page
+
+<img src="screenshots/1.png">
+
+### Login page
+<img src="screenshots/2.png">
+
+### Cart page
+<img src="screenshots/3.png">
+
+### Stripe payment
+<img src="screenshots/4.png">
+
+### History orders
+<img src="screenshots/5.png">
